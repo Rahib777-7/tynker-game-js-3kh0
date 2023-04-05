@@ -46,7 +46,7 @@ searchBar.addEventListener('input', (e) => {
 });
 
 // Fetch the games data from a JSON file
-fetch('./assets/json/games.json')
+fetch('https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0TEMP@main/assets/json/games.json')
   .then((res) => res.json())
   .then((games) => {
     // Loop through each game and create a new game element for it
